@@ -18,6 +18,22 @@ const AtmMasterSchema = mongoose.Schema(
          bankName:{
             type:String,
             required:[true,"Enter the Bank Name"]
+         },
+         routeCode:{
+            type:String,
+            required:[true,"Enter the Route Code"]
+         },
+         bagFloor:{
+            type:String,
+            required:[true,"Enter the Bag Floor"]
+         },
+         bagRack:{
+            type:String,
+            required:[true,"Enter the Bag Rack"]
+         },
+         bagColor:{
+            type:String,
+            required:[true,"Enter the Bag Color"]
          }
 
     },
